@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Contador">
+    tools:context=".ContadorActivity">
 
     <Button
         android:id="@+id/sumar"
@@ -32,11 +32,14 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="129dp"
-        android:layout_height="73dp"
+        android:layout_width="263dp"
+        android:layout_height="29dp"
         android:text=""
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="420dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -45,6 +48,10 @@
         android:ems="10"
         android:hint="Introduzca un número..."
         android:inputType="number"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="204dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
 </androidx.constraintlayout.widget.ConstraintLayout>
